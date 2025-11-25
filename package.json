@@ -37,7 +37,7 @@
     "fs-extra": "^11.3.2",
     "node-fetch": "^3.3.2",
     "path": "^0.12.7",
-    "zod": "^3.24.4"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/express": "^5.0.2",
