@@ -1,0 +1,47 @@
+name: badges
+
+# This file contains badge definitions for the README.md.
+# All badges must conform to the 'flat-square' style and use 'chirag127' as the username.
+# Dynamic URLs must point to the repository: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
+
+badges:
+  - name: Build Status
+    icon: github actions
+    color: brightgreen
+    url: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server/actions/workflows/ci.yml
+    link: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server/actions/workflows/ci.yml
+
+  - name: Code Coverage
+    icon: codecov
+    color: brightgreen
+    url: https://codecov.io/github/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
+    link: https://codecov.io/github/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
+
+  - name: Tech Stack (TypeScript)
+    icon: typescript
+    color: blue
+    url: https://www.typescriptlang.org/
+    link: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
+
+  - name: Tech Stack (Node.js)
+    icon: node.js
+    color: green
+    url: https://nodejs.org/
+    link: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
+
+  - name: Linter/Formatter (Biome)
+    icon: formatter
+    color: orange
+    url: https://biomejs.dev/
+    link: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
+
+  - name: License (CC BY-NC 4.0)
+    color: lightgray
+    url: https://creativecommons.org/licenses/by-nc/4.0/
+    link: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server/blob/main/LICENSE
+
+  - name: GitHub Stars
+    icon: star
+    color: yellow
+    url: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
+    link: https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server
