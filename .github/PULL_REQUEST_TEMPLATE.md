@@ -1,73 +1,68 @@
-<!--
-Thank you for your contribution to ContentFetch-AI-Content-Downloader-MCP-Server!
+---
+name: "🚀 Feature Request, 🐛 Bug Fix, 📝 Documentation, ♻️ Refactor, 🧹 Chore, 🚨 Security Fix"
+about: Propose a significant change to AgentData-WebContent-Ingestion-Service-NodeJS
+title: "[TYPE] Concise and descriptive title"
+labels: ["pending-review"]
+assignees: []
+---
+
+## Pull Request Checklist
+
+Before submitting your pull request, please ensure you've completed the following:
+
+- [ ] I have read the [CONTRIBUTING.md](https://github.com/chirag127/AgentData-WebContent-Ingestion-Service-NodeJS/blob/main/.github/CONTRIBUTING.md) guidelines.
+- [ ] My code follows the project's coding style and best practices.
+- [ ] I have performed a self-review of my own code.
+- [ ] I have added comments to my code, particularly in hard-to-understand areas.
+- [ ] I have made corresponding changes to the documentation (if applicable).
+- [ ] My changes generate no new warnings or errors.
+- [ ] I have added tests that prove my fix is effective or my feature works.
+- [ ] New and existing unit/integration tests pass locally with my changes.
+- [ ] I have updated the `CHANGELOG.md` file (if applicable).
+
+## Type of Change
+
+Please indicate the type of change this pull request introduces:
+
+- [ ] `🚀 New Feature`: Introduces a new capability or enhancement.
+- [ ] `🐛 Bug Fix`: Corrects an identified issue.
+- [ ] `📝 Documentation Update`: Improves or adds to existing documentation.
+- [ ] `♻️ Refactor`: Improves code structure without changing external behavior.
+- [ ] `🧹 Chore`: Maintenance tasks, dependency updates, or build process changes.
+- [ ] `🚨 Security Fix`: Addresses a security vulnerability.
+
+## Description
 
 Please provide a clear and concise description of the changes in this pull request.
-Ensure your PR is linked to an existing issue. If one does not exist, please create one first.
--->
+What problem does it solve? What new functionality does it add?
+Refer to any related issues (e.g., `Fixes #123`, `Closes #456`).
 
-## 🎯 Related Issue
+## Changes Made
 
-<!-- Link the issue that this pull request resolves. -->
-Closes: #<issue_number>
+Provide a detailed summary of the specific code changes.
+- Briefly explain what was changed.
+- If applicable, mention the files modified and the key changes within them.
 
----
+## How Has This Been Tested?
 
-## 📝 Description
+Describe the testing process for your changes. Please be specific.
+- **Unit Tests:** Were new unit tests written or existing ones updated? Provide details on coverage (e.g., using Vitest).
+- **Integration Tests:** How were components integrated and tested? (e.g., API endpoint testing, data flow validation, external service interaction simulation).
+- **Manual Testing/Demonstration:** (If applicable) Provide clear steps to manually verify the changes.
 
-<!-- 
-Provide a clear and concise summary of the changes.
-- What was the problem? (e.g., "The server crashes when processing malformed URLs.")
-- What is the solution? (e.g., "This PR adds robust validation and error handling for URL inputs.")
-- What is the impact? (e.g., "This improves overall server stability and provides clearer feedback to the client.")
--->
+**Example Test Command:**
+bash
+# Run all tests
+npm test
 
-### What does this PR do?
-
-
-### Why is this change necessary?
-
-
----
-
-## 🔧 Technical Implementation Details
-
-<!-- 
-Describe the technical approach taken.
-- Which key files were changed?
-- Were there any new dependencies added? (`npm install ...`)
-- Are there any significant architectural changes or decisions?
--->
+# Or for specific tests (e.g., using Vitest CLI options)
+npm test -- <path-to-test-file>
 
 
+## Reviewer Guidance
 
----
+Are there any specific areas you'd like your reviewers to focus on? Any concerns or complex parts of the code? For example, highlight architectural decisions, performance considerations, or potential edge cases.
 
-## ✅ Author's Diligence Checklist
+## Screenshots (If applicable)
 
-<!-- Please go through this checklist before submitting your PR for review. -->
-
-- [ ] **Code Quality**: My code adheres to the style guidelines defined in `CONTRIBUTING.md`.
-- [ ] **Self-Review**: I have performed a thorough self-review of my own code.
-- [ ] **Linting & Formatting**: I have run `npm run lint` and `npm run format` locally, and there are no new issues.
-- [ ] **Documentation**: I have commented my code where necessary and updated relevant documentation (`README.md`, etc.).
-- [ ] **Testing**: I have added comprehensive tests that prove my fix is effective or that my feature works as intended.
-- [ ] **Test Coverage**: All new and existing tests pass locally with my changes (`npm test`). Code coverage has not decreased.
-- [ ] **Dependencies**: Any new or updated dependencies are necessary and have been documented.
-- [ ] **Branching**: I have rebased my branch onto the latest `main` to ensure a clean merge history.
-- [ ] **Clean Commits**: My commit history is clean, concise, and follows the conventional commit format.
-
----
-
-## 🔬 Reviewer Instructions
-
-<!-- 
-Provide any specific instructions for the reviewer.
-- Are there specific areas of the code to focus on?
-- How can they test this change effectively? (e.g., "Run `npm start` and send a POST request to `/fetch` with the following body: ...")
--->
-
-
-
----
-
-For more details on our contribution process, please review our [**Contributing Guidelines**](https://github.com/chirag127/ContentFetch-AI-Content-Downloader-MCP-Server/blob/main/.github/CONTRIBUTING.md).
+If your changes include any visual updates or critical CLI output changes, please include screenshots or GIFs here. For backend services, this might include examples of log output or API responses.
